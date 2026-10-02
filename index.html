@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maya Chen — Product Designer &amp; Front-End Developer</title>
+  <meta name="description" content="Maya Chen is a product designer and front-end developer in Chicago, crafting brand identities, websites, and product UI for ambitious small businesses." />
+  <link rel="canonical" href="https://mayachen.example/" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Maya Chen — Product Designer & Front-End Developer" />
+  <meta property="og:description" content="Brand identities, marketing websites, and product UI — designed and built by Maya Chen, Chicago." />
+  <meta property="og:image" content="assets/mayaport-portrait.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Maya Chen — Product Designer & Front-End Developer" />
+  <meta name="twitter:description" content="Brand identities, marketing websites, and product UI — designed and built by Maya Chen, Chicago." />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Maya Chen",
+    "jobTitle": "Product Designer & Front-End Developer",
+    "description": "Freelance product designer and front-end developer in Chicago, IL.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Chicago", "addressRegion": "IL", "addressCountry": "US" },
+    "email": "mailto:hello@mayachen.design",
+    "telephone": "+1-312-555-0194",
+    "url": "https://mayachen.example/"
+  }
+  </script>
+
+  <!-- Fonts are self-hosted in assets/fonts/ (no external requests) -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="siteNav">
+    <div class="nav-inner">
+      <a class="brand" href="#top" aria-label="Maya Chen — home" data-cfg-link>
+        <span class="brand-mark" aria-hidden="true" data-cfg="monogram">MC</span>
+        <span class="brand-text" data-cfg="name">Maya Chen</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-primary btn-sm" href="#contact" data-cfg="ctaLabel">Start a project</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Full-screen mobile menu -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav aria-label="Mobile">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact" class="btn btn-primary btn-lg" data-cfg="ctaLabel">Start a project</a>
+    </nav>
+    <p class="mobile-menu-foot"><span data-cfg="location">Chicago, IL</span><br /><span data-cfg="email">hello@mayachen.design</span></p>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-label="Introduction">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker hero-kicker"><span class="kicker-rule" aria-hidden="true"></span><span data-cfg="kicker">Product designer &amp; front-end developer — Chicago, IL</span></p>
+          <h1 class="hero-title">
+            <span class="line"><span class="line-inner" data-cfg="nameFirst">Maya</span></span>
+            <span class="line"><span class="line-inner"><em data-cfg="nameLast">Chen.</em></span></span>
+          </h1>
+          <p class="lede hero-lede" data-cfg="lede">
+            I design and build brands, websites, and product interfaces that make
+            small businesses look — and convert — like they hired an agency.
+          </p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary btn-lg" href="#contact" data-cfg="ctaLabel">Start a project <span class="btn-arrow" aria-hidden="true">→</span></a>
+            <a class="text-link" href="#work">View selected work</a>
+          </div>
+          <dl class="hero-stats" aria-label="Career highlights">
+            <div class="reveal"><dt class="sr">Projects delivered</dt><dd><strong data-count="64">0</strong><span>Projects delivered</span></dd></div>
+            <div class="reveal" data-reveal-delay="1"><dt class="sr">Years of practice</dt><dd><strong data-count="7">0</strong><span>Years of practice</span></dd></div>
+            <div class="reveal" data-reveal-delay="2"><dt class="sr">Average client rating</dt><dd><strong data-count="4.9" data-decimals="1">0</strong><span>Avg. client rating</span></dd></div>
+          </dl>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="monogram-card">
+            <span class="mono-glyph">M</span>
+            <span class="mono-dot"></span>
+            <span class="mono-ring"></span>
+          </div>
+          <p class="avail-badge"><span class="avail-dot"></span><span data-cfg="availability">Available for new projects</span></p>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Brand Identity</span><i>✦</i><span>Product Design</span><i>✦</i><span>Front-End Development</span><i>✦</i><span>Design Systems</span><i>✦</i><span>Art Direction</span><i>✦</i>
+          <span>Brand Identity</span><i>✦</i><span>Product Design</span><i>✦</i><span>Front-End Development</span><i>✦</i><span>Design Systems</span><i>✦</i><span>Art Direction</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <p class="kicker reveal"><span class="kicker-rule" aria-hidden="true"></span>Selected work</p>
+        <h2 id="work-title" class="section-title reveal">Work that <em>works.</em></h2>
+        <p class="section-sub reveal">Six favorites from recent years — every one shipped on time, on budget, and still working hard for its owner.</p>
+        <div class="work-grid" id="workGrid">
+          <!-- Cards are rendered from the CONFIG block in script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-alt" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <figure class="about-media reveal">
+          <div class="img-frame">
+            <img src="assets/mayaport-portrait.jpg"
+                 alt="Studio portrait of Maya Chen, product designer and front-end developer" loading="lazy" width="497" height="622" />
+          </div>
+          <figcaption>Desk, daylight, and a deadline — the usual setup</figcaption>
+        </figure>
+        <div class="about-copy">
+          <p class="kicker reveal"><span class="kicker-rule" aria-hidden="true"></span>About</p>
+          <h2 id="about-title" class="section-title reveal">Design that speaks <em>business,</em> not just design.</h2>
+          <p class="reveal"><span class="dropcap">S</span>even years ago I traded agency life for a home studio and a stubborn belief: that a neighborhood café deserves the same craft as a funded startup. Since then I've designed and hand-built identities, sites, and interfaces for sixty-odd clients — and I still answer every email myself.</p>
+          <p class="reveal">My background is equal parts design and code, so nothing gets lost between the mockup and the browser. You get a clear plan, a fixed quote, source files, and a launch date we both believe in.</p>
+          <ul class="about-list reveal" data-reveal-delay="1">
+            <li>Fixed quotes, agreed before we start</li>
+            <li>Design <em>and</em> front-end build — no handoff gap</li>
+            <li>Two-week average turnaround on brand packages</li>
+            <li>30 days of friendly support after launch</li>
+          </ul>
+          <div class="reveal" data-reveal-delay="2">
+            <a class="text-link" href="#contact">Tell me about your project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <p class="kicker reveal"><span class="kicker-rule" aria-hidden="true"></span>Services</p>
+        <h2 id="services-title" class="section-title reveal">What I can <em>do for you.</em></h2>
+        <p class="section-sub reveal">Fixed starting prices, quoted in writing before we begin. Need something off-menu? Ask — custom quotes land within 48 hours.</p>
+        <div class="service-list">
+          <article class="service reveal">
+            <span class="service-index" aria-hidden="true">01</span>
+            <div class="service-main">
+              <h3>Brand Identity</h3>
+              <p>Logo suite, color palette, typography, and a one-page style guide — everything a young brand needs to look deliberate everywhere.</p>
+            </div>
+            <div class="service-meta">
+              <span class="service-price">from $650</span>
+              <a class="text-link" href="#contact">Start a project</a>
+            </div>
+          </article>
+          <article class="service reveal" data-reveal-delay="1">
+            <span class="service-index" aria-hidden="true">02</span>
+            <div class="service-main">
+              <h3>Marketing Website</h3>
+              <p>Designed and hand-coded by me: fast, responsive, and written to turn visitors into callers, bookers, and buyers.</p>
+            </div>
+            <div class="service-meta">
+              <span class="service-price">from $1,800</span>
+              <a class="text-link" href="#contact">Start a project</a>
+            </div>
+          </article>
+          <article class="service reveal" data-reveal-delay="2">
+            <span class="service-index" aria-hidden="true">03</span>
+            <div class="service-main">
+              <h3>Product UI &amp; Prototypes</h3>
+              <p>Interfaces, clickable prototypes, and design systems for apps and SaaS — from first wireframe to developer-ready components.</p>
+            </div>
+            <div class="service-meta">
+              <span class="service-price">from $1,200</span>
+              <a class="text-link" href="#contact">Start a project</a>
+            </div>
+          </article>
+          <article class="service reveal" data-reveal-delay="3">
+            <span class="service-index" aria-hidden="true">04</span>
+            <div class="service-main">
+              <h3>Design Retainer</h3>
+              <p>A standing slice of my week for teams that need ongoing design and front-end help — pause or cancel anytime.</p>
+            </div>
+            <div class="service-meta">
+              <span class="service-price">from $900/mo</span>
+              <a class="text-link" href="#contact">Start a project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="section section-alt" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <p class="kicker kicker-center reveal"><span class="kicker-rule" aria-hidden="true"></span>Client reviews<span class="kicker-rule" aria-hidden="true"></span></p>
+        <h2 id="reviews-title" class="section-title center reveal">Don't take <em>my</em> word for it.</h2>
+        <div class="reviews-grid">
+          <figure class="review reveal">
+            <div class="stars" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div>
+            <blockquote>“Maya rebuilt our website in two weeks and our catering inquiries tripled. She understood our restaurant better than designers we'd paid three times as much.”</blockquote>
+            <figcaption><strong>Rosa Delgado</strong><span>Owner, Copperline Café</span></figcaption>
+          </figure>
+          <figure class="review reveal" data-reveal-delay="1">
+            <div class="stars" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div>
+            <blockquote>“One person, zero drama, delivered exactly on the date she promised. Design and code from the same brain is a cheat code — nothing was lost in translation.”</blockquote>
+            <figcaption><strong>Priya Raman</strong><span>Founder, Ledgerly</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <p class="kicker reveal"><span class="kicker-rule" aria-hidden="true"></span>Get in touch</p>
+        <h2 id="contact-title" class="contact-title reveal">Have a project in mind?<br />Let's make it <em>unmissable.</em></h2>
+        <p class="section-sub reveal">Tell me a little about what you're building — I reply within one business day with next steps and a fixed quote.</p>
+        <div class="reveal" data-reveal-delay="1">
+          <a class="btn btn-primary btn-lg" href="mailto:hello@mayachen.design" data-cfg="ctaMail" data-cfg-label="ctaLabel">Start a project <span class="btn-arrow" aria-hidden="true">→</span></a>
+        </div>
+        <address class="contact-details reveal" data-reveal-delay="2">
+          <div>
+            <span class="detail-label">Email</span>
+            <a href="mailto:hello@mayachen.design" data-cfg="emailLink" data-cfg-label="email">hello@mayachen.design</a>
+          </div>
+          <div>
+            <span class="detail-label">Phone</span>
+            <a href="tel:+13125550194" data-cfg="phoneLink" data-cfg-label="phone">+1 (312) 555-0194</a>
+          </div>
+          <div>
+            <span class="detail-label">Based in</span>
+            <span data-cfg="locationFull">Chicago, IL — working with clients everywhere</span>
+          </div>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-statement reveal">Good work finds<br /><em>good clients.</em></p>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true" data-cfg="monogram">MC</span>
+          <p class="footer-tag"><span data-cfg="role">Product designer &amp; front-end developer</span><br /><span data-cfg="location">Chicago, IL</span>.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-social" id="footerSocial" aria-label="Social links">
+          <!-- Social links are rendered from the CONFIG block in script.js -->
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> <span data-cfg="name">Maya Chen</span>. All rights reserved.</p>
+        <p>Made with intent in Chicago.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
